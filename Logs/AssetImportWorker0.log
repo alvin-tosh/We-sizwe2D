@@ -1,0 +1,1427 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8089 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Desktop/GITstuff/We-sizwe2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61352
+Successfully changed project path to: C:/Users/User/Desktop/GITstuff/We-sizwe2D
+C:/Users/User/Desktop/GITstuff/We-sizwe2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 113.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/GITstuff/We-sizwe2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 930MX (ID=0x134e)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.5296
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013748 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 118.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 116.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2756ms)
+		BeginReloadAssembly (403ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (2173ms)
+			LoadAssemblies (404ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (731ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (847ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (261ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (62ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2671 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 123.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 3109.
+Total: 4.440500 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.136300 ms MarkObjects: 3.864500 ms  DeleteObjects: 0.194700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/START.unity
+  artifactKey: Guid(ea929a335e9466644acc450ece4bb4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/START.unity using Guid(ea929a335e9466644acc450ece4bb4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef9f44227e03e607cc9967cae624126') in 0.013791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.527886 seconds.
+  path: Assets/2DGamekit/Art/Materials/VFX/RoundParticles.mat
+  artifactKey: Guid(9d008d8496a77794bbf7cdf9ed4684ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/VFX/RoundParticles.mat using Guid(9d008d8496a77794bbf7cdf9ed4684ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e117b8c25c164aba821c1787e5b17eac') in 0.677782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.668693 seconds.
+  path: Assets/Leval 2Settings.lighting
+  artifactKey: Guid(934cc41056fae1d4fa515ce852299a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leval 2Settings.lighting using Guid(934cc41056fae1d4fa515ce852299a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'a89389712b2250ec6ef270072e543e02') in 0.110219 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.094 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2095ms)
+		BeginReloadAssembly (383ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1541ms)
+			LoadAssemblies (415ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (57ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.5 MB.
+System memory in use after: 121.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3152.
+Total: 5.974800 ms (FindLiveObjects: 0.252500 ms CreateObjectMapping: 0.159100 ms MarkObjects: 5.402000 ms  DeleteObjects: 0.159700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.788212 seconds.
+  path: Assets/Level1.unity
+  artifactKey: Guid(08d2f27eafb307248b803b09ecec4a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1.unity using Guid(08d2f27eafb307248b803b09ecec4a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c234ee63533ef9018d719b730105ec') in 0.026361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.982929 seconds.
+  path: Assets/Level 5.unity
+  artifactKey: Guid(46801896f2638f2468dfdccb20d08002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 5.unity using Guid(46801896f2638f2468dfdccb20d08002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef766d85cce10ae543c51c95f07909a') in 0.016789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.472886 seconds.
+  path: Assets/Level 2.unity
+  artifactKey: Guid(9ed92d04b88e34a4da8a616d9bf24609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level 2.unity using Guid(9ed92d04b88e34a4da8a616d9bf24609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b965086ec4e8ebc0d0e6db1d16f0a50') in 0.016956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.013603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1405.438663 seconds.
+  path: Assets/Level2.unity
+  artifactKey: Guid(9ed92d04b88e34a4da8a616d9bf24609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level2.unity using Guid(9ed92d04b88e34a4da8a616d9bf24609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d854d94f8737abde6ff36bf7e9967e') in 0.051089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.713911 seconds.
+  path: Assets/Leval3.unity
+  artifactKey: Guid(cb82becfc4b096344ade7ffee7bbf98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Leval3.unity using Guid(cb82becfc4b096344ade7ffee7bbf98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde87de2ea681eda34bd7ae9a3777877') in 0.027310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.454781 seconds.
+  path: Assets/Level4.unity
+  artifactKey: Guid(9f41797a4f8b5724682b6ea91d044511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level4.unity using Guid(9f41797a4f8b5724682b6ea91d044511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a263cce0c4d753f40696f163e5d791') in 0.019309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.673508 seconds.
+  path: Assets/Level5.unity
+  artifactKey: Guid(46801896f2638f2468dfdccb20d08002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level5.unity using Guid(46801896f2638f2468dfdccb20d08002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72b787af539c8fd8461b22493d6197c') in 0.042818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.708900 seconds.
+  path: Assets/Level1.unity
+  artifactKey: Guid(08d2f27eafb307248b803b09ecec4a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1.unity using Guid(08d2f27eafb307248b803b09ecec4a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb71baa08090141e643f7eceaa985875') in 0.010417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.124799 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39830e642e86629427d938554181f2fd') in 0.024853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 434.999848 seconds.
+  path: Assets/2DGamekit/Scenes/Level1.unity
+  artifactKey: Guid(08d2f27eafb307248b803b09ecec4a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Level1.unity using Guid(08d2f27eafb307248b803b09ecec4a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0f27b0e16fcf6e9b5a895996464571') in 0.014271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3844.940558 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Environment/AcidBubbles.png
+  artifactKey: Guid(86d5ee14dfb5a6342ad6aae1133f4561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Environment/AcidBubbles.png using Guid(86d5ee14dfb5a6342ad6aae1133f4561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef533b5e2512caa9bc4f5e3e7139de51') in 2.265031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.235202 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00003.png
+  artifactKey: Guid(5a1cef7e9c9ed034da742d0e08ea786a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00003.png using Guid(5a1cef7e9c9ed034da742d0e08ea786a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5c107ab09f08fae74843741fcef486') in 0.262030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00009.png
+  artifactKey: Guid(a9e9e74909b5a0947a093069d6a017cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00009.png using Guid(a9e9e74909b5a0947a093069d6a017cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84e31815e1f937d50337dc61666571a') in 0.190650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00005.png
+  artifactKey: Guid(a9c37448b62c0d149aced6ded9e44e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00005.png using Guid(a9c37448b62c0d149aced6ded9e44e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607a22b6b0d986d7fc94c591a72e8e8a') in 0.213641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000745 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00005.png
+  artifactKey: Guid(cf749edb05d158d47a3e523439809960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00005.png using Guid(cf749edb05d158d47a3e523439809960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba87aadbe2aec1ab16e9604132577e8') in 0.234620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00007.png
+  artifactKey: Guid(59b767590592a9e4685835a20cf41d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00007.png using Guid(59b767590592a9e4685835a20cf41d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c7b84c7786a578bd018b140b9aba9d') in 0.177154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00011.png
+  artifactKey: Guid(b5b9f448600b9aa4daa1d9fd5069a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00011.png using Guid(b5b9f448600b9aa4daa1d9fd5069a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c10395a7fcbc603c036a255d825a84d') in 0.167077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00007.png
+  artifactKey: Guid(7d37e1dfeba60ea4a8803c12675079b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Crouch/Anim_CROUCH_00007.png using Guid(7d37e1dfeba60ea4a8803c12675079b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b8f74eb32ee799e45707d02f3785b3') in 0.189825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000999 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00003.png
+  artifactKey: Guid(0b26c4d5c6b04e940932afa1ffa8284f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00003.png using Guid(0b26c4d5c6b04e940932afa1ffa8284f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbab6e34e7f9e88cec75daa3724bab8f') in 0.187035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.909760 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00009.png
+  artifactKey: Guid(c195730543b85df41953d682fee276b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00009.png using Guid(c195730543b85df41953d682fee276b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7a2d0be8d9681f1cca7a1dbd825ca4') in 0.286274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00011.png
+  artifactKey: Guid(1ffccabe7b991aa4283e4106fca8f9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00011.png using Guid(1ffccabe7b991aa4283e4106fca8f9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e105e205c0cb0142aa4b9ebab714889b') in 0.136733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.378420 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00013.png
+  artifactKey: Guid(a1c0872c2cf7825428b1f301727f4e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00013.png using Guid(a1c0872c2cf7825428b1f301727f4e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165bb2341048afeb004535d77ae70b6a') in 0.202669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00015.png
+  artifactKey: Guid(baa7eb63e6b2764408c3c44ea0b180ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00015.png using Guid(baa7eb63e6b2764408c3c44ea0b180ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a55ae69cda3a37361ff6138fb9cd5c') in 0.133333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.569998 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00017.png
+  artifactKey: Guid(b5a42cffd70ab6441a230c8e772f3c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00017.png using Guid(b5a42cffd70ab6441a230c8e772f3c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b10e8943721dd41288dcf65aba4328') in 0.300206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00021.png
+  artifactKey: Guid(ec69df1b25263e844aa6c00cbb388ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00021.png using Guid(ec69df1b25263e844aa6c00cbb388ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9398df0bafc9b51fd7dc0db200ccfc90') in 0.434781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00019.png
+  artifactKey: Guid(35322bfa3901c9145821274537244b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00019.png using Guid(35322bfa3901c9145821274537244b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa799c0fac7d6ae6e736d24dd9cf84c') in 0.228432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00023.png
+  artifactKey: Guid(190f2e72bd4df1945b2d504efccde46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00023.png using Guid(190f2e72bd4df1945b2d504efccde46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c36b2b3d3348bf516eddd020bc4bff') in 0.276620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.598198 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00025.png
+  artifactKey: Guid(eef4c8c406166bd4c848e87480efa2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Death/Anim_DEATH_00025.png using Guid(eef4c8c406166bd4c848e87480efa2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8977adec200052c8c33934a5dde4ec') in 0.299675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00009.png
+  artifactKey: Guid(0adb3b85a77225b42823314ce0caedd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00009.png using Guid(0adb3b85a77225b42823314ce0caedd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34523ca64ed297d68042c315bae9528') in 0.120933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00007.png
+  artifactKey: Guid(575f490323d76254ab8d5d4cd472a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00007.png using Guid(575f490323d76254ab8d5d4cd472a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93b48be4102537a8bdaff1c05c38247') in 0.191108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00011.png
+  artifactKey: Guid(f645b6da0a4688d4288e29bcffabc941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00011.png using Guid(f645b6da0a4688d4288e29bcffabc941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7880b2e4a93ce884cf5e1a20d10d24') in 0.128259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.290793 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00013.png
+  artifactKey: Guid(1b0ea6ee3d93339468688584fa8f3bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00013.png using Guid(1b0ea6ee3d93339468688584fa8f3bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f56a4f1157f5ab4d2bb98ca1ebee88') in 0.241631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00001.png
+  artifactKey: Guid(c4d7d6470acd7bf45971042161c6e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00001.png using Guid(c4d7d6470acd7bf45971042161c6e018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509b95a95c18267fa0448579a4d2f027') in 0.194869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001616 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00003.png
+  artifactKey: Guid(1fa29ad54380226498c2250e612fec93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00003.png using Guid(1fa29ad54380226498c2250e612fec93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc937c6810a21d181878aa637dd989d9') in 0.112169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00015.png
+  artifactKey: Guid(8def3b866cd238f4a928439e0a5a8907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Hurt/Anim_HURT_00015.png using Guid(8def3b866cd238f4a928439e0a5a8907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a97f6c7f67a8272ed60811fcf7220ee') in 0.134348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00009.png
+  artifactKey: Guid(a53475b08393802498550588cf70ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00009.png using Guid(a53475b08393802498550588cf70ef5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3241a959a3f38d73227628a4556de43f') in 0.131957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00005.png
+  artifactKey: Guid(c7cf710ee57c1ae45aac513a85fcff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00005.png using Guid(c7cf710ee57c1ae45aac513a85fcff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563c75c36e369ad620a531a34aeb4ea1') in 0.156106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00011.png
+  artifactKey: Guid(c6b584771aee7a148bcf2885a6f347ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00011.png using Guid(c6b584771aee7a148bcf2885a6f347ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6fd0ad045b74cecd10b80c0fe2aaba') in 0.121563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00007.png
+  artifactKey: Guid(774282641b60d9d4daddad7c6ad7ae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00007.png using Guid(774282641b60d9d4daddad7c6ad7ae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9045ccd995e418d19ba9221c96608bb') in 0.139969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.378416 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00013.png
+  artifactKey: Guid(60a2cfad92429cc4b9d2f6ce7148c37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00013.png using Guid(60a2cfad92429cc4b9d2f6ce7148c37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf925343ab4b314f4d04e687ded48d04') in 0.198371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00015.png
+  artifactKey: Guid(dcc9002875a3a244eacb72418d292f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00015.png using Guid(dcc9002875a3a244eacb72418d292f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35d806d75e0ec9464888d3d02076b84') in 0.135268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00017.png
+  artifactKey: Guid(64afd51ca9828034f8c64a261e4b99b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00017.png using Guid(64afd51ca9828034f8c64a261e4b99b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740b5df433400aa9b4eca2a23994f3aa') in 0.106393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00019.png
+  artifactKey: Guid(76089009971280441963c2a3a55b5071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00019.png using Guid(76089009971280441963c2a3a55b5071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb6170273447fa1eb025fcefe889283') in 0.142624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.264070 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00021.png
+  artifactKey: Guid(cd65a99c817869946969cd216cab2115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00021.png using Guid(cd65a99c817869946969cd216cab2115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6383ef40c8778bf0e884d51d92a20f') in 0.262782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001103 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00023.png
+  artifactKey: Guid(591e3ea0fd60a1442bfbe969a16d4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00023.png using Guid(591e3ea0fd60a1442bfbe969a16d4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15908a323c5c9d0a39de9d9589098ca2') in 0.133555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.376185 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00025.png
+  artifactKey: Guid(d2d936bae69c599429ee1a386892a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00025.png using Guid(d2d936bae69c599429ee1a386892a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c0e78d5672bc1cb1c3a8fa64e91f6b') in 0.213580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00029.png
+  artifactKey: Guid(ed4c6463819f7cb4b85a6a44dc35c9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00029.png using Guid(ed4c6463819f7cb4b85a6a44dc35c9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52d6740085e4c58028d8aac63e74a55') in 0.375219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00001.png
+  artifactKey: Guid(28b55e113ed8d2e499533bc878cf9c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00001.png using Guid(28b55e113ed8d2e499533bc878cf9c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf9d5414a1506a86717b636dd09bed0') in 0.185407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00027.png
+  artifactKey: Guid(f3b094a028c28604382b41bfab29604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Idle/Anim_IDLE_00027.png using Guid(f3b094a028c28604382b41bfab29604a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6162716846ba4833f62cda9f6f8b4f00') in 0.175511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00005.png
+  artifactKey: Guid(753548c84e6e0264da62aca9c26f94c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00005.png using Guid(753548c84e6e0264da62aca9c26f94c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab18317fb5895ce6c87c26431d3c2cf4') in 0.128102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00007.png
+  artifactKey: Guid(7f64c56c59a2fd7429f7ec776a4213a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00007.png using Guid(7f64c56c59a2fd7429f7ec776a4213a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c763892b0cd560786fcd05ca9394c489') in 0.110230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00009.png
+  artifactKey: Guid(7568b5e22ac6e1b4687bb661ac8f0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00009.png using Guid(7568b5e22ac6e1b4687bb661ac8f0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec3f1420ca58c52a9722c7aa4f516a2') in 0.170406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00003.png
+  artifactKey: Guid(b2d03960805e00146a93e7a607cc5f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00003.png using Guid(b2d03960805e00146a93e7a607cc5f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b510e7b7de91e911d7883d7c91b8d68c') in 0.117053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.247320 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00011.png
+  artifactKey: Guid(8f8e5b3d53a0deb4d88a6a25a3db5ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00011.png using Guid(8f8e5b3d53a0deb4d88a6a25a3db5ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ec7c4be38ef7d19e632cd11329e5e0') in 0.370476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00013.png
+  artifactKey: Guid(b0cff70733e6b0b41a5ad812ead6cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00013.png using Guid(b0cff70733e6b0b41a5ad812ead6cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906890a3fa3f107a13a32f8300d7a97e') in 0.269721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.514059 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00015.png
+  artifactKey: Guid(1877f93426f7f3848a2d0ec5ec6ee4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00015.png using Guid(1877f93426f7f3848a2d0ec5ec6ee4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58eaae64305b4675e200336d6f6f537') in 0.233714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000830 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00021.png
+  artifactKey: Guid(5edee3b2ea56ae64881eacb7f58be021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00021.png using Guid(5edee3b2ea56ae64881eacb7f58be021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1619e1d4632a390f131526c6674867') in 0.172296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00019.png
+  artifactKey: Guid(455b6008820c4b143bdc7ed7c6cd29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00019.png using Guid(455b6008820c4b143bdc7ed7c6cd29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52d9e5a0ea9afcf496224a465716c83') in 0.122220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00017.png
+  artifactKey: Guid(d366315072065fc4891bc2f5281daca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00017.png using Guid(d366315072065fc4891bc2f5281daca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a17dc22a2cbc203fd03bafce7c80e9') in 0.196068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239671 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00023.png
+  artifactKey: Guid(129972c0ed661da47bd600512df59822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00023.png using Guid(129972c0ed661da47bd600512df59822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee941f525bcc891b6f47008e4428a1cd') in 0.303427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000931 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00025.png
+  artifactKey: Guid(9346fa5c7f34ca845954029ac6857a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00025.png using Guid(9346fa5c7f34ca845954029ac6857a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5d432b3d58e5b2afe52cfe40861c6d') in 0.198397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146281 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00027.png
+  artifactKey: Guid(b0acf1d76f96df547a6135841ee354f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00027.png using Guid(b0acf1d76f96df547a6135841ee354f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7dfadc46ced21a8404c0fabb2aec3e') in 0.328839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_01.png
+  artifactKey: Guid(5767e2180fcbb7a4d9980e9a37e3d588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_01.png using Guid(5767e2180fcbb7a4d9980e9a37e3d588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e722a10a2d4c35ef54e40e9a9ad33e') in 0.348558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010274 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00029.png
+  artifactKey: Guid(0a78267c907b61449a0367178cabe70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/IdleWithGun/Anim_IDLE_WITHGUN_00029.png using Guid(0a78267c907b61449a0367178cabe70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc8bf7cf76f8705f4082dcc9c8f8e0b') in 0.210385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074469 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_05.png
+  artifactKey: Guid(4214a14962bcf4943baf9e184b9b928e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_05.png using Guid(4214a14962bcf4943baf9e184b9b928e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20af6adbc1e96c6b72f50c0620e0b266') in 0.163804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_03.png
+  artifactKey: Guid(6f8b0a53ff8c9e94f9d4af829e2ad6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_03.png using Guid(6f8b0a53ff8c9e94f9d4af829e2ad6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03cbbb12f19ebeabbd71eb81d7748bc') in 0.163907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_04.png
+  artifactKey: Guid(affa4f4470b317440b7cb5187df710ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_04.png using Guid(affa4f4470b317440b7cb5187df710ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef502bcbc75dc62527a784a2c2ac4af0') in 0.137660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_06.png
+  artifactKey: Guid(bb6a891737c56e6438e808fb4e716321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_06.png using Guid(bb6a891737c56e6438e808fb4e716321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a98705c4d0d0bb21d6235d92c55dd7a') in 0.104237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_02.png
+  artifactKey: Guid(e4381a10685b28d4f906cc686ecbc2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_02.png using Guid(e4381a10685b28d4f906cc686ecbc2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f2759ace26b21da956117fe1eabf3f') in 0.103126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.965993 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_07.png
+  artifactKey: Guid(af68c0be2e67f3846bcdf33841f8312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_07.png using Guid(af68c0be2e67f3846bcdf33841f8312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc20359f051dee7491ba4317f4c36a55') in 0.337628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001185 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_11.png
+  artifactKey: Guid(7dcbef0330b37354dae1c1071956813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_11.png using Guid(7dcbef0330b37354dae1c1071956813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0092b94846724126d9e3f70f3f5802aa') in 0.113238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000860 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_09.png
+  artifactKey: Guid(ae6184443cb4d0f439bab73e9e76df4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_09.png using Guid(ae6184443cb4d0f439bab73e9e76df4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54e0b6ed6d0a58b4de79d991d2a1c44') in 0.187390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_08.png
+  artifactKey: Guid(a9f05e230fdd41b4f99ac0e0b7c4fa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_08.png using Guid(a9f05e230fdd41b4f99ac0e0b7c4fa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d43a63c7fdbd6ff9681f9ff62147f8') in 0.155876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_18.png
+  artifactKey: Guid(686160c7c3cfd5040a8ea08b867ff56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_18.png using Guid(686160c7c3cfd5040a8ea08b867ff56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bb039ed05b21a4d2049279d169177e') in 0.236397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_10.png
+  artifactKey: Guid(fcec6de5f73f3b74480aa66ffac97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_10.png using Guid(fcec6de5f73f3b74480aa66ffac97f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eedbe9bd61fba976db15f62bcd94061') in 0.232323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001087 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_15.png
+  artifactKey: Guid(13aa9a4a1bc68064c9e5e17a86df2666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_15.png using Guid(13aa9a4a1bc68064c9e5e17a86df2666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abd234a08c6f034e3e9156bfd2665c8') in 0.183970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_17.png
+  artifactKey: Guid(31d88d4dbed3d9546898b42447a63e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_17.png using Guid(31d88d4dbed3d9546898b42447a63e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3900352a6d938df101a4c7a9b52b75') in 0.169303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_04.png
+  artifactKey: Guid(2350b442f31bb1741b68a6b77d09d40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_04.png using Guid(2350b442f31bb1741b68a6b77d09d40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601cde060ced7e27eabec75921814aec') in 0.169773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00027.png
+  artifactKey: Guid(881250471e7213f42819ba1d7bb1d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00027.png using Guid(881250471e7213f42819ba1d7bb1d4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6013961087810dd7d46fffa110c503c') in 0.197691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_02.png
+  artifactKey: Guid(221d99e63cd1a414bad8cd6c93cb95c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_02.png using Guid(221d99e63cd1a414bad8cd6c93cb95c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc20682238c4983494343a51c52ddcec') in 0.163776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00025.png
+  artifactKey: Guid(22f7a3407a0448d438b85694136896c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00025.png using Guid(22f7a3407a0448d438b85694136896c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cb042e196d98e55c645a4e9e4c1e99') in 0.199496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00037.png
+  artifactKey: Guid(ae7c3e30807a6b14ea27333b478b7159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00037.png using Guid(ae7c3e30807a6b14ea27333b478b7159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11aa316a737db481a12141a63251975') in 0.144926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00031.png
+  artifactKey: Guid(8b571ba119e277145b0b92cd8fd42067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00031.png using Guid(8b571ba119e277145b0b92cd8fd42067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc8e7d0c45d3ad2d90d20c0575ad552') in 0.114901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00035.png
+  artifactKey: Guid(312a5bfa1cd438440b81906da98959f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00035.png using Guid(312a5bfa1cd438440b81906da98959f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701aa7274c37aa0cac1c207a0da6ffce') in 0.077316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00003.png
+  artifactKey: Guid(4843081a76a173a468369f4fab334928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00003.png using Guid(4843081a76a173a468369f4fab334928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013191743b0dd2ed68128cc69f449b1d') in 0.133432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00039.png
+  artifactKey: Guid(c3bc842a37054c74bbc28d1f34c9847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00039.png using Guid(c3bc842a37054c74bbc28d1f34c9847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06eaedffa590eb069ed288eee930cb31') in 0.199985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFGMask02.png
+  artifactKey: Guid(3952391064022044da4fe9f7b5b09a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFGMask02.png using Guid(3952391064022044da4fe9f7b5b09a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae676f33bddb75771b4c49d55b7de2c7') in 0.256313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00017.png
+  artifactKey: Guid(3d64a15e480cc6847bc34f715f1999fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00017.png using Guid(3d64a15e480cc6847bc34f715f1999fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71227285e814cacc1346da5981931f08') in 0.128102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00005.png
+  artifactKey: Guid(b3da84ebb4d3f0748b47f5cf58ae9d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00005.png using Guid(b3da84ebb4d3f0748b47f5cf58ae9d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a111a4da08e21010197c990478c33f') in 0.202321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00019.png
+  artifactKey: Guid(54bda8bcfb03f4345aafea5fe8271478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00019.png using Guid(54bda8bcfb03f4345aafea5fe8271478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28004fbc03c3500c862d3e1c83d96883') in 0.123386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_10.png
+  artifactKey: Guid(5f51f8f690669d84cacaeab399fce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_10.png using Guid(5f51f8f690669d84cacaeab399fce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaffaf0aed22a0ecd7c9adf5df44bce') in 0.370077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00003.png
+  artifactKey: Guid(ef846db2d56c3124b8f82467a163ebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00003.png using Guid(ef846db2d56c3124b8f82467a163ebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b06be5830d5f077dab3c5d7f8249ae') in 0.162488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesMG01.png
+  artifactKey: Guid(b76aa331eaf5bcb428b58fabf8e5008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesMG01.png using Guid(b76aa331eaf5bcb428b58fabf8e5008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6652d30720f20c5329919518bb8701d') in 0.178258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00007.png
+  artifactKey: Guid(b6737a6c649b5664baa6b0e1f942a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00007.png using Guid(b6737a6c649b5664baa6b0e1f942a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce544fad1f68b1cbd3da02e1ef4e59c') in 0.522452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00029.png
+  artifactKey: Guid(63290ff7381eab84eb49e7b9345c809f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Push/Anim_PUSH_00029.png using Guid(63290ff7381eab84eb49e7b9345c809f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba4f6084ce4831d5e45dcafa27775f') in 0.124984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00041.png
+  artifactKey: Guid(72182c4737bc6a242be25cda1beacbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00041.png using Guid(72182c4737bc6a242be25cda1beacbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a42a94fd32dc8f6c3721c62f5d0c23b') in 0.100503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_09.png
+  artifactKey: Guid(fe5165f702e35144684bf593203a031c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_09.png using Guid(fe5165f702e35144684bf593203a031c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380f1bc62848c782e7caf469d0fa36eb') in 0.104215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015402 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00057.png
+  artifactKey: Guid(c476985fb9af3ff4aafceffed501e06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00057.png using Guid(c476985fb9af3ff4aafceffed501e06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8494f920322f31ed5bd1d9fa64afd862') in 0.280806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00011.png
+  artifactKey: Guid(0ce1ce8775d04c04091f4c852f4f4ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00011.png using Guid(0ce1ce8775d04c04091f4c852f4f4ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c61aa2d6768472bf1c0d7144d9a70b') in 0.292697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_12.png
+  artifactKey: Guid(49594577334bdee479b8dd58aedf1d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_12.png using Guid(49594577334bdee479b8dd58aedf1d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6956cc54f051091e0dcb2e0c953100c9') in 0.240668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00021.png
+  artifactKey: Guid(39f2b1de192463d41a4339ee2b5f2074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00021.png using Guid(39f2b1de192463d41a4339ee2b5f2074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5635a9b0aa03e89d29d01ee821eb8f') in 0.223750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00019.png
+  artifactKey: Guid(df6f54cd95dfdf148a5c4cc0aca6d49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00019.png using Guid(df6f54cd95dfdf148a5c4cc0aca6d49f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ceecc379b7f87f72172afc01ce2687') in 0.228173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Interactables/Circle.png
+  artifactKey: Guid(5fd0d50a2804b464f83c9b5f21eb93dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Interactables/Circle.png using Guid(5fd0d50a2804b464f83c9b5f21eb93dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5c0dd3bd393256dbf04ec5e3ab566f') in 0.145745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_12.png
+  artifactKey: Guid(ca897d165bbb9094584da008d90d3df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_12.png using Guid(ca897d165bbb9094584da008d90d3df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143411329b7d38a9d84d5a03755683d8') in 0.173324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_15.png
+  artifactKey: Guid(28e829622ce5c974bbf154a278a2be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_15.png using Guid(28e829622ce5c974bbf154a278a2be22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5999e1736c15e909498413c5f59a641') in 0.166661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00013.png
+  artifactKey: Guid(980a4b66b0a2bba42a9a3b50f4da76d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00013.png using Guid(980a4b66b0a2bba42a9a3b50f4da76d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c42434110c9a7f5a35c23a022846edf') in 0.134336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesMG02.png
+  artifactKey: Guid(403cfbf9c6b20bb4dbfca621f0b8a31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesMG02.png using Guid(403cfbf9c6b20bb4dbfca621f0b8a31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe9d669171f9508c7d8c05f22cb490c') in 0.130174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdleE_00001.png
+  artifactKey: Guid(030bf29ece336fa4590a0d4039eb5a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdleE_00001.png using Guid(030bf29ece336fa4590a0d4039eb5a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a8077c2c148dca25df5fb33c340793') in 0.091325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00009.png
+  artifactKey: Guid(f0657c0811c44934ba275af9b1aa5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00009.png using Guid(f0657c0811c44934ba275af9b1aa5c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc5d6b0c9a6a6707f1930215409973d') in 0.112888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00003.png
+  artifactKey: Guid(4b74c95301673024c9dbf47514f2cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00003.png using Guid(4b74c95301673024c9dbf47514f2cb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa46faa83608cc3d1ac909838d253a2f') in 0.120258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00007.png
+  artifactKey: Guid(c63c69d9fdf411147aede23769d5fcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00007.png using Guid(c63c69d9fdf411147aede23769d5fcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f341582621ecb5956b77795dc5f7ed') in 0.113808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00011.png
+  artifactKey: Guid(e7f298e049bf3bb41bca4bbd8ceee9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00011.png using Guid(e7f298e049bf3bb41bca4bbd8ceee9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851687c79e7353ce4a57d26f9ad69b0b') in 0.276270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00021.png
+  artifactKey: Guid(f7636f79f29fce1469dfb21774e2b9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00021.png using Guid(f7636f79f29fce1469dfb21774e2b9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c38be9be38eae1744817cd1d69e6f8') in 0.171028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00001.png
+  artifactKey: Guid(a3ee41879a5dc174f9767e2bfdcde909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00001.png using Guid(a3ee41879a5dc174f9767e2bfdcde909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99332d98266dfbd9b50df25d33f69b6c') in 0.114078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00009.png
+  artifactKey: Guid(924e830a0c9d55a4bbe5afdc9729d55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00009.png using Guid(924e830a0c9d55a4bbe5afdc9729d55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c40b3bfe49f439ab7ba1b78c835c34') in 0.088476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_16.png
+  artifactKey: Guid(aacc218bfa62aef41920035f78af31e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_16.png using Guid(aacc218bfa62aef41920035f78af31e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78109bcf70d222f44a62e233a811eb6a') in 0.103612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_19.png
+  artifactKey: Guid(bce1db75cf9f0c7448eb419ad2e38c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_19.png using Guid(bce1db75cf9f0c7448eb419ad2e38c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62ebedeaaa4cef7decb559ca3573a51') in 0.144794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00015.png
+  artifactKey: Guid(b801fd8404ee341479f2a795c6dd8ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00015.png using Guid(b801fd8404ee341479f2a795c6dd8ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e59ffe9ba36a7eaa54448d55dcd13a') in 0.067908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_06.png
+  artifactKey: Guid(c93003632dfb3f346ae28336c8748cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_06.png using Guid(c93003632dfb3f346ae28336c8748cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137707413a358a2c475a6ff2517d92ba') in 0.402164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00005.png
+  artifactKey: Guid(aefc8fcf439e0ae40bab5098679276b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00005.png using Guid(aefc8fcf439e0ae40bab5098679276b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888cfaac3e1c6bc4b841346f51be2b90') in 0.177710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_14.png
+  artifactKey: Guid(32713ff48a4e8dc42a32b9d4d19ea5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_14.png using Guid(32713ff48a4e8dc42a32b9d4d19ea5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114bee6be99fd857ed881e4184161916') in 0.223023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_05.png
+  artifactKey: Guid(967004704d0400c45945b1dc74fc5eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_05.png using Guid(967004704d0400c45945b1dc74fc5eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf65e84c5a8753300fa2719ac04f6a4') in 0.134789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00009.png
+  artifactKey: Guid(f7f3915fcb9a6744a9a147ed3ee26ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00009.png using Guid(f7f3915fcb9a6744a9a147ed3ee26ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee2a3cba28a81c6621047e5a9065d28') in 0.106007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesMG03.png
+  artifactKey: Guid(d8d5b15cbb3f5a941bbd5539b5e49be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesMG03.png using Guid(d8d5b15cbb3f5a941bbd5539b5e49be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dc63f8a7e32f3290613f7504962bec') in 0.135019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_18.png
+  artifactKey: Guid(0b69f35e166d1704f987340b84eaefe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_18.png using Guid(0b69f35e166d1704f987340b84eaefe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09f4d1260013ea2784f0fa1b30290ae') in 0.094349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00003.png
+  artifactKey: Guid(aa9e3d4d344a1c548a75a061ab69c3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00003.png using Guid(aa9e3d4d344a1c548a75a061ab69c3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c14431eb65d1ae09bae6095d166ae0') in 0.147774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00011.png
+  artifactKey: Guid(2db361d87da36334cb20db2ebf74e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00011.png using Guid(2db361d87da36334cb20db2ebf74e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0742b82a784e58d8a7b56491b7244d2a') in 0.118697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00005.png
+  artifactKey: Guid(b789f21f154a3744592f10328f51d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00005.png using Guid(b789f21f154a3744592f10328f51d9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016064f80303a96d15c6c6c0f3b4e4ab') in 0.172118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00011.png
+  artifactKey: Guid(c00121950f177f84092fd15f53c6ac66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00011.png using Guid(c00121950f177f84092fd15f53c6ac66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df09d84c17c2f9a1a6f8a4cab2da5b8e') in 0.135613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_13.png
+  artifactKey: Guid(86106dab9033ac7448f28ca19c407c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_13.png using Guid(86106dab9033ac7448f28ca19c407c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779af8dba123149bd4b5e9906521a2da') in 0.168818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00017.png
+  artifactKey: Guid(dae848790acd29544a951ec295aecf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00017.png using Guid(dae848790acd29544a951ec295aecf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2385d5a9359b6ca61b481611203f873d') in 0.104751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00009.png
+  artifactKey: Guid(d720e2d90151e91479a4d3d4287bb61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00009.png using Guid(d720e2d90151e91479a4d3d4287bb61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa171544ff01fbb3798e4c3582b8fdb7') in 0.106316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00009.png
+  artifactKey: Guid(9e540f44219d80243bec5e2191787a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00009.png using Guid(9e540f44219d80243bec5e2191787a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c67011a45096ef45edba23c1b1172a7') in 0.169474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00003.png
+  artifactKey: Guid(3b35fd7e10ffa5a4886deb9a7fe973be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00003.png using Guid(3b35fd7e10ffa5a4886deb9a7fe973be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4848a424d0d13f0d519cad8343b4a7') in 0.122883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_13.png
+  artifactKey: Guid(882f64064bde2e64db7df2086bc259df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_13.png using Guid(882f64064bde2e64db7df2086bc259df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41dd7a2d92b206fed21427be3ddabf9') in 0.142837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_09.png
+  artifactKey: Guid(b6e64dd7555a5fc44b98d71cb5c0d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_09.png using Guid(b6e64dd7555a5fc44b98d71cb5c0d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270548d9635955a757329eca2b47d59d') in 0.168269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_07.png
+  artifactKey: Guid(8398530cb9366974ca3cb94c16af54f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_07.png using Guid(8398530cb9366974ca3cb94c16af54f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690052dd89f29a25a94a9314d7baeb9c') in 0.376045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00017.png
+  artifactKey: Guid(e1faa5d36f8d3e843b5367af93176284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00017.png using Guid(e1faa5d36f8d3e843b5367af93176284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd2a421bb737bda0d0fc398eafab714') in 0.174684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Enemies/Chomper/ChomperBits.png
+  artifactKey: Guid(351ab337221b6e94e9abba678273e891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Enemies/Chomper/ChomperBits.png using Guid(351ab337221b6e94e9abba678273e891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd793065734e1fe7354eeb451a44d6623') in 0.329091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017221 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00015.png
+  artifactKey: Guid(9405a54793ed1b74bb19ee929c860b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00015.png using Guid(9405a54793ed1b74bb19ee929c860b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3b6fbde2c1f39dcb0f1bb76c81f03e') in 0.156319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_11.png
+  artifactKey: Guid(1c64f7cfb7bf99d48abddaeb45da9704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_11.png using Guid(1c64f7cfb7bf99d48abddaeb45da9704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef647118a19f33e2dc5631c7a8fa0ec2') in 0.188918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_03.png
+  artifactKey: Guid(5ff5b330714abac42a0db7b827b418a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_03.png using Guid(5ff5b330714abac42a0db7b827b418a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eed0d8851216799ed57b6ad58c4986') in 0.091707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00043.png
+  artifactKey: Guid(02d12d99a7d9fc24fa0f9e2472426c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00043.png using Guid(02d12d99a7d9fc24fa0f9e2472426c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9029779a1b7d9bf8b13546201b4f38') in 0.144315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126038 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_01.png
+  artifactKey: Guid(94f6e6ef133c2fc4d978f8e13f22331e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_01.png using Guid(94f6e6ef133c2fc4d978f8e13f22331e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e831be6ddcb43c7a809f7cde91fd68e3') in 0.087696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00029.png
+  artifactKey: Guid(c10ee680b45acec46af60e470d8c1930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00029.png using Guid(c10ee680b45acec46af60e470d8c1930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1e29f139366e39f2163f408a842553') in 0.128215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00049.png
+  artifactKey: Guid(a003b41375f47594a9d754a4e55dc568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00049.png using Guid(a003b41375f47594a9d754a4e55dc568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9122300936451bcb855fa2f3d94c547c') in 0.102114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_14.png
+  artifactKey: Guid(5b31577ecf5954448b0d92a2c8a0501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_14.png using Guid(5b31577ecf5954448b0d92a2c8a0501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcddc9baae31b8c1ca6264add3ab18cc') in 0.175741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFG02.png
+  artifactKey: Guid(ffd4bbd5542733e43896c59f7b369543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFG02.png using Guid(ffd4bbd5542733e43896c59f7b369543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca36f71320706b46abc7cbc6da9d682') in 0.103759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Ellen/BulletImpact2.png
+  artifactKey: Guid(89f413bb94de50745831d20f00d673f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Ellen/BulletImpact2.png using Guid(89f413bb94de50745831d20f00d673f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c353014d20034a9c94e28430a06b54ba') in 0.508330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00011.png
+  artifactKey: Guid(6b594b886c601ff4db79a8ffa0673177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00011.png using Guid(6b594b886c601ff4db79a8ffa0673177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b822643a2b0850258fea287a1c1758f') in 0.249257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFG01.png
+  artifactKey: Guid(a62753b01e9a12149816790ea837457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFG01.png using Guid(a62753b01e9a12149816790ea837457a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dc894be0877efe02c3b36464da054f') in 0.278837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesBG01.png
+  artifactKey: Guid(3bc4a6783b6a2c341bc23a7280ac7289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesBG01.png using Guid(3bc4a6783b6a2c341bc23a7280ac7289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0834c0411770db836f6f7d69cdd8a048') in 0.263307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFG03.png
+  artifactKey: Guid(c8e56c3853fc6234ca23bd3f61af4681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFG03.png using Guid(c8e56c3853fc6234ca23bd3f61af4681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3ac736e98ad5d9c9fa3015ade7f466') in 0.232275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_07.png
+  artifactKey: Guid(b53b9dcb8117dfe4ab1c5a250703548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_07.png using Guid(b53b9dcb8117dfe4ab1c5a250703548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bdbe34c81b30d74959c3bc4682570c') in 0.162486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_01.png
+  artifactKey: Guid(634ae46b18d6e8e42a8359e8219fa81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_01.png using Guid(634ae46b18d6e8e42a8359e8219fa81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c63bab4f0a433712a6e9dbf15c2dfb') in 0.122607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00013.png
+  artifactKey: Guid(a25859ca3789d8a469bdd28a7d38daf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00013.png using Guid(a25859ca3789d8a469bdd28a7d38daf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c398b821b41836d32984dbd4aecfa47b') in 0.175797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00059.png
+  artifactKey: Guid(a5cc0836f318e7d47928222a8a8c6bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00059.png using Guid(a5cc0836f318e7d47928222a8a8c6bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4c52ea6162536be743bf089ffac337') in 0.190394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00001.png
+  artifactKey: Guid(1d094e315b7be8444ab6502f9dcca260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Run/ChomperRun_00001.png using Guid(1d094e315b7be8444ab6502f9dcca260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a28ddb87d6b28ed2cbbfddb7cc113c') in 0.118519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00007.png
+  artifactKey: Guid(a64b8a0d006d7b744b431b7cd3e59096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00007.png using Guid(a64b8a0d006d7b744b431b7cd3e59096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbfce6d9975582844697e9b9640bbd4') in 0.087451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFGMask03.png
+  artifactKey: Guid(3e8e56145e29c394f9861ce66c2bbe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFGMask03.png using Guid(3e8e56145e29c394f9861ce66c2bbe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b092d934ab84fe5a42110998396bee19') in 0.135580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesMG04.png
+  artifactKey: Guid(1056549ac5cc50c46b0083822c8cadcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesMG04.png using Guid(1056549ac5cc50c46b0083822c8cadcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74d9ed6e01238f78d41de04ad345b90') in 0.200389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_17.png
+  artifactKey: Guid(049cab3d3a32a3a45856ca44f223ced1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_17.png using Guid(049cab3d3a32a3a45856ca44f223ced1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f9c420740536e25a9e5af012a1e316') in 0.256972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00033.png
+  artifactKey: Guid(75a36c8886a27f54b833c41de3d11d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00033.png using Guid(75a36c8886a27f54b833c41de3d11d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b14a0ff46888712a293bf99b297007') in 0.197231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00007.png
+  artifactKey: Guid(5b1c7342d6504e3448979307c3f6a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00007.png using Guid(5b1c7342d6504e3448979307c3f6a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccd13797604051a40f3f4b2b213bbf9') in 0.166760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00005.png
+  artifactKey: Guid(92f985257d4b81740b246818800efccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00005.png using Guid(92f985257d4b81740b246818800efccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae62e4185870a68cf8c68a995390ebc1') in 0.142214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00005.png
+  artifactKey: Guid(f14aa10c3b4eb5b47860e729e2144c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00005.png using Guid(f14aa10c3b4eb5b47860e729e2144c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bc40d4553526fe74f5ccbd694e2a01') in 0.124440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00013.png
+  artifactKey: Guid(1e12a6098ecee9a47b8b65f259c08991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00013.png using Guid(1e12a6098ecee9a47b8b65f259c08991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6749e0ac4a8c265121cd1b06b7a8ae12') in 0.278223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00053.png
+  artifactKey: Guid(6de87e9f00722e74d9fc96304b8f1a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00053.png using Guid(6de87e9f00722e74d9fc96304b8f1a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77443a7116b5b671d02a0a1e98d8a926') in 0.148594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Enemies/Gunner/Beam2.png
+  artifactKey: Guid(c5a32a0a640efe349b674f87c1a1f1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Enemies/Gunner/Beam2.png using Guid(c5a32a0a640efe349b674f87c1a1f1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93984f448ceb56fc59ce1b9ebf0b550b') in 0.235367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00005.png
+  artifactKey: Guid(483490e295d65ea45b0ca6ec50a93382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00005.png using Guid(483490e295d65ea45b0ca6ec50a93382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc3ffc163660826bb69f37bad9ba797') in 0.226086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_16.png
+  artifactKey: Guid(1eb8ffe712da55942b19d29be7a6e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_16.png using Guid(1eb8ffe712da55942b19d29be7a6e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fd6a37814e454282d6ad73dd3d662c') in 0.220508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00009.png
+  artifactKey: Guid(c66090fb301d69046ba811b94979feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/StaffAttack/Anim_StaffAttack_Type1_00009.png using Guid(c66090fb301d69046ba811b94979feab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbe98a431e65107789f34fb3cdcde00') in 0.139720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00055.png
+  artifactKey: Guid(6e07004c8f0965d4ab66a275e02b77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00055.png using Guid(6e07004c8f0965d4ab66a275e02b77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979af611f7f6f0fecfa9d50ff83f886f') in 0.077713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_08.png
+  artifactKey: Guid(5f800286e4f0550478208c51d0a48d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_08.png using Guid(5f800286e4f0550478208c51d0a48d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9790eee8d096a33def159bdbfe833af8') in 0.094199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00013.png
+  artifactKey: Guid(8a9b494f275a2954aba6b318fc17d9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00013.png using Guid(8a9b494f275a2954aba6b318fc17d9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce2a05d2f359451d93df18cd74b8b28') in 0.156563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00045.png
+  artifactKey: Guid(38c40e88299ccf042b83f09b5c3fd89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00045.png using Guid(38c40e88299ccf042b83f09b5c3fd89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748cef5fd489cdbd2eb673831b265259') in 0.295775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00047.png
+  artifactKey: Guid(6c05bc2e66e3ff342abf6c6128d48be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00047.png using Guid(6c05bc2e66e3ff342abf6c6128d48be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dd248b4101125559887ccb4cce7013') in 0.171376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00003.png
+  artifactKey: Guid(41ee8205a421b1643824c4bd4c9b12b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00003.png using Guid(41ee8205a421b1643824c4bd4c9b12b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6537b7ed0d8e584d5b45149f930eb5f3') in 0.120966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00019.png
+  artifactKey: Guid(f49c41dd300e6f6439fb3dafb10f4e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00019.png using Guid(f49c41dd300e6f6439fb3dafb10f4e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a682bc5144c6f6693714287522554a') in 0.111056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Ellen/BulletImpact.png
+  artifactKey: Guid(5320207e54e4e2e4587e1f890a04353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Ellen/BulletImpact.png using Guid(5320207e54e4e2e4587e1f890a04353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153a0cddd3d358669123bdd95b885dec') in 0.063764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00017.png
+  artifactKey: Guid(bf9cb13b45f6dfe41970b547e98bb782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00017.png using Guid(bf9cb13b45f6dfe41970b547e98bb782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcb17e6b86ee82b7c5a3349cd0138b4') in 0.143812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_11.png
+  artifactKey: Guid(5b13d17b360e2a64cbc7b4a2ac4cd375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_11.png using Guid(5b13d17b360e2a64cbc7b4a2ac4cd375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3eb731feef74589a5383af1fd19f36') in 0.100163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00001.png
+  artifactKey: Guid(ac9307145261eee499a455ddeb80db4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00001.png using Guid(ac9307145261eee499a455ddeb80db4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02ba1032136fa481a0501c6a2460452') in 0.115484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00023.png
+  artifactKey: Guid(8ae4d681ab837c64796c0b72ee2584a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00023.png using Guid(8ae4d681ab837c64796c0b72ee2584a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92238b7ef4e4f55ec4954b47e2d29d00') in 0.089706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00007.png
+  artifactKey: Guid(2682d6b08082e2f49b748e74174a8e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00007.png using Guid(2682d6b08082e2f49b748e74174a8e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7860051606cb79ec735cf0bde85d443') in 0.175733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/2DGamekit/Art/Sprites/VFX/Enemies/Gunner/Beam.png
+  artifactKey: Guid(119fb27e4431ff745a78b13ec8388c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/VFX/Enemies/Gunner/Beam.png using Guid(119fb27e4431ff745a78b13ec8388c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9122732c1d28b9f0b1050bfc6862090') in 0.083722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_03.png
+  artifactKey: Guid(614b90dda34ee634893a6168082923be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/JumpWithGun/Anim_JUMPwithGUN_03.png using Guid(614b90dda34ee634893a6168082923be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567be25755eb550ec5a510180a548db2') in 0.313784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_13.png
+  artifactKey: Guid(fffa3e12c34c2ee448d46f5c9db142e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/Jump/Anim_JUMP_13.png using Guid(fffa3e12c34c2ee448d46f5c9db142e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62567d349c78747099ba7bce6d63f6f4') in 0.188726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00007.png
+  artifactKey: Guid(aeb8b905156a5164ea3f260ddc951efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00007.png using Guid(aeb8b905156a5164ea3f260ddc951efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c59580bcf839c6b3decfb0c49ec007') in 0.319791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000819 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00011.png
+  artifactKey: Guid(ab415a003dc7634428737e396fb6b118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Walk/ChomperWalk_00011.png using Guid(ab415a003dc7634428737e396fb6b118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041597f7420acbd36d9882f366538e51') in 0.208427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00015.png
+  artifactKey: Guid(26aea5a92fc76f648bb6522f06a0af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00015.png using Guid(26aea5a92fc76f648bb6522f06a0af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f3b344d532ba122f7d22bbdfbedfec') in 0.130642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFGMask01.png
+  artifactKey: Guid(c34ca32aad53f4f43afeea982175a8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesFGMask01.png using Guid(c34ca32aad53f4f43afeea982175a8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852eb6c283ea87a8e876a52630e07bfb') in 0.172231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00051.png
+  artifactKey: Guid(a0740f7c6b0a21346b139ff42dc3cb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00051.png using Guid(a0740f7c6b0a21346b139ff42dc3cb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8331ad81f85584b514f04cb0e4e5c2c') in 0.114215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00019.png
+  artifactKey: Guid(8b5d6d95c402e6e479a2528aceb461c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Attack/ChomperAttack_00019.png using Guid(8b5d6d95c402e6e479a2528aceb461c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c4b785ef9841b1c892e9cb7d20927c') in 0.100097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesBG02.png
+  artifactKey: Guid(4b5666aaf8525fd41b81d7746d12fb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/ParallaxCaves/CavesBG02.png using Guid(4b5666aaf8525fd41b81d7746d12fb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e8bb63962a145773bd608be51ec6ae') in 0.093403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00027.png
+  artifactKey: Guid(d3ae7713c92135644b592b6979acbcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Idle/ChomperIdle_00027.png using Guid(d3ae7713c92135644b592b6979acbcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fd6e3d9374ad633bf51bc12741b24c') in 0.071100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00015.png
+  artifactKey: Guid(3bcc6973de396d247a99745a0c323d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00015.png using Guid(3bcc6973de396d247a99745a0c323d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10996564b7438595d8914f7ac6524343') in 0.081886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_05.png
+  artifactKey: Guid(62e4d070156482a4995f75774447f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Enemies/Chomper/Death/ChomperDEATH_Paint_05.png using Guid(62e4d070156482a4995f75774447f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9b4d50720b2c77b63820e9b7aba6d8') in 0.094489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00001.png
+  artifactKey: Guid(57585d65d25175a4b82cdcd9092545ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/AnimatedSprites/Ellen/Animations/RunGunOut01/Anim_RUN_WithGun_00001.png using Guid(57585d65d25175a4b82cdcd9092545ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9649c43e2bd81fd9b06b9b5eab592a') in 0.157247 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2214.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.0 MB.
+System memory in use after: 71.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3163.
+Total: 109.351000 ms (FindLiveObjects: 0.670600 ms CreateObjectMapping: 0.517500 ms MarkObjects: 103.637200 ms  DeleteObjects: 4.520200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
